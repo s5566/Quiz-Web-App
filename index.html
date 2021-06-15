@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>NTECL/QUIZ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+ 
+  </head>
+  <body>
+    
+
+      <div class="animation-area">
+        <ul class="box-area">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div class="container" >
+        <!-- <div class="forms-container"> -->
+          <div class="signin-signup">
+           
+            <form action="#" class="sign-in-form">
+                
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+              <h2 class="title text-center" >Sign in</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" id ="password" placeholder="Password" />
+              </div>
+              <div class="small text-center">
+              <button type="button" id="f" class="btn btn-primary " type="submit" onclick="loginUser()">Login</button>
+            </div><br>
+            <div>
+            <p class ="k text-center">Not registered?  <a href="register.html">Register now</a></p></div>
+              
+            
+               </div>
+              
+              </div>
+              </div>
+            
+            </form>
+            
+            </div>
+            
+          </div>
+           
+
+            
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+    
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDMuI6VHFHTWsoS1J2Fcb2Ykp47g9tfnpw",
+    authDomain: "ntecl-e5e0e.firebaseapp.com",
+    databaseURL: "https://ntecl-e5e0e-default-rtdb.firebaseio.com",
+    projectId: "ntecl-e5e0e",
+    documentId:"gl9iZpd2IygOnPgaugTf",
+    storageBucket: "ntecl-e5e0e.appspot.com",
+    messagingSenderId: "904659700747",
+    appId: "1:904659700747:web:d2c49b8cf1504e154a4b0e",
+    measurementId: "G-BHJD8P05ZL"
+  };
+  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
+<script src="index.js"></script>
+  </body>
+</html>

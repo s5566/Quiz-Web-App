@@ -1,0 +1,22 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "File to sign in",
+  "main": "index.js",
+  "scripts": {
+    "test": "/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s5566/Project1.git"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "Soumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s5566/Project1/issues"
+  },
+  "homepage": "https://github.com/s5566/Project1#readme"
+}
