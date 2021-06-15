@@ -8,7 +8,7 @@ function signUpUser()
         alert("Fill all fields")
         return;
     }
-    console.log(email,password)
+    
     firebase.auth().createUserWithEmailAndPassword(email, password)
     .then((userCredential) => {
       let user = userCredential.user;
@@ -48,6 +48,10 @@ function loginUser()
     });
 
 }
+
+
+
+
 
 
 
